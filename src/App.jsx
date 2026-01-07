@@ -1,4 +1,4 @@
-import { Form } from "./form.jsx";
+import { Form } from "./Form.jsx";
 import "./App.css";
 
 function App() {

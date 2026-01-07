@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const useForm = () => {
+export function useForm() {
   const [text, setText] = useState("");
   function handleChange(e) {
     setText(e.target.value);
@@ -13,4 +13,4 @@ export const useForm = () => {
   const canSubmit = text.length > 0;
 
   return { text, handleChange, handleSubmit, canSubmit };
-};
+}
